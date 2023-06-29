@@ -1,0 +1,15 @@
+-- CreateTable
+CREATE TABLE "Folha" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "mes" INTEGER NOT NULL,
+    "ano" INTEGER NOT NULL,
+    "horas" INTEGER NOT NULL DEFAULT 0,
+    "valor" REAL NOT NULL DEFAULT 0,
+    "bruto" REAL NOT NULL DEFAULT 0,
+    "liquido" REAL NOT NULL DEFAULT 0,
+    "irrf" REAL NOT NULL DEFAULT 0,
+    "inss" REAL NOT NULL DEFAULT 0,
+    "fgts" REAL NOT NULL DEFAULT 0,
+    "nome" TEXT NOT NULL,
+    "cpf" TEXT NOT NULL
+);
